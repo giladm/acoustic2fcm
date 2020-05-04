@@ -1,7 +1,7 @@
-This sample app demonstrate how to incorporate Acoustic Android SDK with a 3rd party push provider
-==================================================================================================
+Acoustic Android SDK with a 3rd party push provider
+===================================================
 
-How To use Acoustic Android SDK with 3rd party push provider
+This sample app demonstrates how to incorporate Acoustic Android SDK with a 3rd party push provider
 
 1. Files to notice
 	AndroidManifest.xml
@@ -13,10 +13,11 @@ How To use Acoustic Android SDK with 3rd party push provider
 3. Copy MceConfig.json and modify it based on your appKey and server
  
 AndroidManifest.xml add or modified Messaging Event:
-		<service
-			android:name="co.acoustic.mobile.push.samples.android.fcm.CustomFcmService">
-			<intent-filter>
-				<action android:name="com.google.firebase.MESSAGING_EVENT"/>
-			</intent-filter>
-		</service>
-
+```
+<service
+	android:name="co.acoustic.mobile.push.samples.android.fcm.CustomFcmService">
+	<intent-filter>
+		action android:name="com.google.firebase.MESSAGING_EVENT"/>
+	</intent-filter>
+</service>
+```
