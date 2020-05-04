@@ -1,0 +1,2 @@
+Replace with Acoustic SDK file. Example:
+acoustic-mobile-push-android-sdk-3.8.1.aar
