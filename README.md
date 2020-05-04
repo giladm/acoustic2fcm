@@ -2,6 +2,8 @@ Acoustic Android SDK with a 3rd party push provider
 ===================================================
 
 This sample app demonstrates how to incorporate Acoustic Android SDK with a 3rd party push provider
+After cloning or downloading the source add Acoustic Android SDK :
+[GitHub](https://github.com/Acoustic-Mobile-Push/Android/)
 
 1. Files to notice
 	AndroidManifest.xml
