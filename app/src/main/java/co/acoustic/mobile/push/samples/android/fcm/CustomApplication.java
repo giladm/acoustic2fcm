@@ -63,8 +63,6 @@ public class CustomApplication extends Application {
             @Override
             public void onStart(MceSdkConfiguration configuration ) {
                 Log.i(">>>CustomApplication:"," called right after the sdk start will be called. appKey:"+configuration.getAppKey());
-                String token = Pushwoosh.getInstance().getPushToken();
-                Log.d("onCreate token:",token);
             }
 
             @Override
@@ -75,8 +73,6 @@ public class CustomApplication extends Application {
             public     void onPluginNotificationTypeLoad(JSONObject var1){
 
             }
-
-
         });
     }
     @TargetApi(26)

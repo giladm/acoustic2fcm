@@ -36,7 +36,7 @@
 		</activity>
 
 		<service
-			android:name="co.acoustic.mobile.push.samples.android.fcm.CustomMessagingService">
+			android:name="co.acoustic.mobile.push.samples.android.fcm.CustomFcmService">
 			<intent-filter>
 				<action android:name="com.google.firebase.MESSAGING_EVENT"/>
 			</intent-filter>
